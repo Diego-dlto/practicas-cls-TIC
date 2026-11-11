@@ -13,5 +13,11 @@ while i <len(nombres):
 if encontrado==True:
     print("Nombre encontrado")
     print("Aparece", contador, "veces")
+
+if contador==2:
+    nombres.remove(nombreBuscar)
+    print("El nompre aparece dos veces ya fue correjido")
 else:
     print("No encontrado")
+
+print(nombres)
