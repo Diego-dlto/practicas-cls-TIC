@@ -1,5 +1,5 @@
 nombres=[]
-nombreMayus=[]
+nombresMayus=[]
 i=0
 while i<5:
     nombre=input("Ingresa tu nombre: ")
@@ -10,5 +10,8 @@ for nombre in nombres:
     print(nombre)
 
 for nombre in nombres:
-    nombreMayus=(nombre.upper())
-print(nombreMayus)
+    nombre=(nombre.upper())
+    nombresMayus.append(nombre)
+
+for nombre in nombresMayus:
+    print(nombre)

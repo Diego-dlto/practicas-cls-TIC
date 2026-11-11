@@ -13,3 +13,11 @@ for num in numeros:
 
 print("numeros originales: ", numeros)
 print("resultados: ", resultados)
+
+#buscar un numero en la lista resultados
+numBuscar=int(input("Que numero desea buscar: "))
+if numBuscar in resultados:
+    print("El numero si se encuentra en resultados")
+else:
+    print("El numero no esta en la lista de resultados")
+
